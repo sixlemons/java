@@ -56,3 +56,36 @@ class TestVarDemo4{
 //        System.out.println(num);
     }
 }
+
+class TestChapter{
+    public static void main(String[] args) {
+        char c1 = 'a';
+        char c2 = '\"';
+        char c3 = '\u0043';
+        char c4 = 100;
+        System.out.println("c1 = " + c1);   //c1 = a
+        System.out.println("c2 = " + c2);   //c2 = "
+        System.out.println("c3 = " + c3);   //c3 = C
+        System.out.println("c4 = " + c4);   //c4 = d
+    }
+}
+
+class MyInfoDemo{
+    public static void main(String[] args) {
+        String name = "谷姐";
+        String school = "谷粒学院";
+        int age = 18;
+        char gender = '女';
+        int height = 168;
+        double weight = 102.5;
+        boolean marry = false;
+        System.out.println("name = " + name);
+        System.out.println("school = " + school);
+        System.out.println("age = " + age);
+        System.out.println("gender = " + gender);
+        System.out.println("height = " + 168);
+        System.out.println("weight = " + weight);
+        System.out.println("marry = " + marry);
+
+    }
+}
